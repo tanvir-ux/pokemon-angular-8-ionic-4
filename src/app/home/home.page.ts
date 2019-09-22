@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +8,22 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  pokemons:any = [];
+  species:any = []
+
+  constructor(private http:HttpClient) {
+
+    this.http.get("https://pokeapi.co/api/v2/pokemon/1").subscribe(data=>{
+      console.log(data['species']);
+      console.log(data['sprites']);
+      this.pokemons.push(data['sprites']);
+      this.species.push(data['species']);
+    })
+  }
+
+
+
+
+
 
 }
