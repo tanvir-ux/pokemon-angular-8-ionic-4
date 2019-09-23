@@ -5,9 +5,4 @@
 ![gif](src/assets/icon/pokemon.gif)
 
 ## To Do
--[] Facebook Native login with Firebase from the app
--[] Update the database
--[] Deploy to Playstore
--[x] Facebook Native login with Firebase from the app
--[x] Update the database
--[x] Deploy to Playstore
+#this time it will work i promise
