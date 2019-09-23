@@ -8,3 +8,9 @@
 -[] Facebook Native login with Firebase from the app
 -[] Update the database
 -[] Deploy to Playstore
+-[x] Facebook Native login with Firebase from the app
+-[x] Update the database
+-[x] Deploy to Playstore
+-[] Facebook Native login with Firebase from the app
+-[] Update the database
+-[] Deploy to Playstore
