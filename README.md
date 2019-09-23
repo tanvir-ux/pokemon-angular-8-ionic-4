@@ -5,4 +5,9 @@
 ![gif](src/assets/icon/pokemon.gif)
 
 ## To Do
-#this time it will work i promise
+# this time it will work i promise
+
+- [ ] bug fix
+- [ ] style fix
+
+
